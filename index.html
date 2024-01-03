@@ -120,10 +120,12 @@
 				dataType : "json",
 				data: JSON.stringify(data),
 				success: function(res) {
-					$("#valGuestName").html(val);
+					
 					return false;
 				}
 			});
+
+      $("#valGuestName").html(val);
 		});
 
 	});
